@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
  */
 @Component({
   selector: 'perfil',
-  templateUrl: 'perfil.html',
-  styleUrl: 'perfil.scss'
+  templateUrl: 'perfil.component.html',
+  styleUrls: ['perfil.component.scss']
 })
 export class Perfil {
 
