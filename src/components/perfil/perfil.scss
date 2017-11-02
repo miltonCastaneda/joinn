@@ -1,0 +1,91 @@
+perfil {
+
+}
+
+.perfil-title {
+    margin: 2em 0;
+    color: #827f7f;
+    font-weight: bold;
+    text-align: center;
+}
+
+figure.perfil-avatar {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.perfil-avatar>img {
+    width: 100%;
+    border-radius: 100%;
+    border: 2px solid #424242;
+}
+
+.perfil-starts {
+    margin: 1em 0;
+    text-align: center;
+    color: #777575;
+}
+
+.perfil-description {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    background-color: #bdbdbd;
+    padding: 1em 0;
+}
+
+.perfil-descripction-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #4a4646;
+}
+
+.perfil-description-location {
+    color: #616060;
+}
+
+.perfil-description-button-refer {
+    background-color: #777575;
+    padding: 0.5em;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.perfil-body {
+    padding: 2em 0;
+}
+
+.perfil-body-item {
+    display: flex;
+    padding: 1em 0;
+    justify-content: space-evenly;
+}
+
+.perfil-body-item-dark {
+    background-color: #f1f0f0;
+    box-shadow: 1px 1px 1px #c8c7cc;
+}
+
+.perfil-body-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.perfil-body-button {
+    padding: .5em 1em;
+    background-color: #999;
+    margin: 1em;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.perfil-body-button.perfil-button-reservation {
+    background-color: #424242;
+}
+
+.perfil-body-items {
+    margin: 1em 0 2em 0;
+}
+
