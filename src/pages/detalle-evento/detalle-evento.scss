@@ -1,0 +1,52 @@
+page-detalle-evento {
+
+}
+
+.evento-detalle-card{
+    margin:0;
+    width: 100%;
+}
+
+.evento-detalle-header {
+    position: relative;
+}
+
+.evento-detalle-header-horario {
+    position: absolute;
+    bottom: 0;
+    background-color: inherit;
+    color: white;
+    text-align: center;
+    font-size: .9em;
+}
+
+
+.evento-detalle-top {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    font-size: 2em;
+    background-color: inherit;
+}
+
+.evento-detalle-title {
+    color: white;
+    font-weight: bold;
+    display: inline;
+}
+
+.evento-detalle-figure>img {
+    display: block;
+    width: 100%;
+    border-radius: 0px 0px 20px 19px;
+}
+
+.evento-detalle-desc {
+    padding: 1em 3em 2em 3em;
+}
+
+.evento-detalle-desc-title {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #6b6b6b;
+}
