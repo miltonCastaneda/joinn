@@ -81,7 +81,7 @@ figure.perfil-avatar {
     color: #fff;
 }
 
-.perfil-body-button.perfil-button-reservation {
+.perfil-body-button {
     background-color: #424242;
 }
 
@@ -89,3 +89,32 @@ figure.perfil-avatar {
     margin: 1em 0 2em 0;
 }
 
+.perfil-body-item-icon {
+    width: 50%;
+    text-align: right;
+    color: #616161;
+    font-size: 1.5em;
+    padding-right: 11%;
+}
+
+.perfil-body-item-text {
+    width: 50%;
+    padding-left: 0%;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #999;
+}
+
+.logo {
+    min-width: 100px;
+    max-width: 20%;
+    margin: 0 auto;
+}
+
+.perfil-cerrar {
+    color: #e13838;
+    padding: 1em 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: .8em;
+}

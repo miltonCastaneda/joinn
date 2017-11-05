@@ -1,0 +1,56 @@
+page-servicio-detalle {
+
+}
+
+.servicios-top {
+    position: relative;
+    padding: 2em 0;
+}
+
+.servicios-top-icon {
+    color: #8b8b8b;
+    font-size: 2.5em;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+.servicio-detalle-card {
+    box-shadow: none;
+}
+
+.servicio-add {
+    padding: 1em;
+    width: 100%;
+    background-color: #bdbdbd;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1.3em;
+}
+
+.servicio-valor-content {
+    border: 3px solid #a3a6a8;
+    border-radius: 5px;
+    display: inline-block;
+    padding: .1em .5em;
+    font-size: 1.5em;
+    color: #767676;
+    font-weight: bold;
+}
+
+.servicio-valor {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.servicio-detalle {
+    color: #999 !important;
+}
+
+.servicio-detalle-title {
+    color: #636363;
+    font-weight: bold;
+}
+

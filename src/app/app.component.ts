@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 //import { Perfil } from '../pages/perfil/perfil';
 import { Servicios } from '../pages/servicios/servicios';
+//import { ServicioDetalle } from '../pages/servicio-detalle/servicio-detalle';
 
 @Component({
   templateUrl: 'app.html'
@@ -22,3 +23,4 @@ export class MyApp {
   }
 }
 
+ 
