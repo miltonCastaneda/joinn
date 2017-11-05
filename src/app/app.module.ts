@@ -6,13 +6,14 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { Perfil } from '../pages/perfil/perfil';
-import { DetalleEvento } from '../pages/detalle-evento/detalle-evento'
+import { Servicios } from '../pages/servicios/servicios';
+
 
 @NgModule({
   declarations: [
     MyApp,
     Perfil,
-    DetalleEvento
+    Servicios
   ],
   imports: [
     BrowserModule,
@@ -22,7 +23,7 @@ import { DetalleEvento } from '../pages/detalle-evento/detalle-evento'
   entryComponents: [
     MyApp,
     Perfil,
-    DetalleEvento
+    Servicios
   ],
   providers: [
     StatusBar,

@@ -1,0 +1,84 @@
+page-servicios {
+
+}
+
+.servicios {
+    background-color: #f2f2f2;
+}
+
+.servicio {
+    padding: 0;
+    margin: 1em 4%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 92%;
+    background-color: inherit;
+    align-items: stretch;
+}
+
+.servicio-figure {
+    margin: 1% 2px 1% 1% !important;
+    padding: 5%;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px #999;
+    background-color: white;
+}
+
+.servicio-img {
+    width: 100%!important;
+}
+
+
+.servicio > .item-inner {
+    padding:0.5em 1.2em !important;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #999;
+    margin: 1% 1% 1% 2px;
+    background: #fff;
+}
+
+.servicio-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(98, 98, 98);
+    padding-bottom: .4em;
+}
+
+.servicio-description {
+    font-size: 13px;
+}
+
+.servicios-title {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #a2a2a2;
+}
+
+.servicios-top {
+    position: relative;
+    padding: 2em 0;
+}
+
+ion-label.label.label-md {
+    margin: 0;
+    white-space: normal;
+}
+
+ion-icon.sercivio-add.icon.icon-ios.ion-ios-add-circle.item-icon,
+ion-icon.sercivio-add.icon.icon-md.ion-md-add-circle.item-icon {
+    position: absolute;
+    right: 3%;
+    bottom: 6%;
+    color: #d9d9d9;
+}
+
+ion-icon.icon.icon-md.ion-md-close-circle {
+    color: #d9d9d9;
+    font-size: 2.5em;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
