@@ -1,20 +1,31 @@
 page-servicios {
-
+    background-color: #f5f5f5;
 }
 
-.servicios {
+.mis-servicios {
     background-color: #f2f2f2;
 }
 
+.servicios {
+    margin-bottom: 0;
+}
+
 .servicio {
-    padding: 0;
-    margin: 1em 4%;
-    -webkit-box-sizing: border-box;
+    padding: 0 4%;
+    margin: 0;
     box-sizing: border-box;
-    width: 92%;
+    width: 100%;
     background-color: inherit;
     align-items: stretch;
 }
+
+.servicio-item-add {
+    position: absolute;
+    right: 6%;
+    bottom: 10%;
+    color: #d9d9d9;
+}
+
 
 .servicio-figure {
     margin: 3% 2px 3% 0% !important;
@@ -65,12 +76,6 @@ page-servicios {
     margin: 0;
 }
 
-.sercivio-add {
-    position: absolute;
-    right: 2%;
-    bottom: 10%;
-    color: #d9d9d9;
-}
 
 .servicios-top-icon {
     color: #d9d9d9;
@@ -80,7 +85,65 @@ page-servicios {
     /* margin-top: 1%; */
 }
 
+
 ion-label.label.label-md {
     margin: 0;
     white-space: normal;
+}
+
+.servicios-aggregates-car-icon {
+    font-size: 6em;
+}
+
+.servicios-aggregates {
+    color: #fff;
+    padding: 0;
+    font-size: 0.8em;
+    margin-top: 3em;
+}
+
+.servicios-aggregates>.item-inner {
+    border-bottom: none!important; 
+    padding: 0!important;
+}
+
+.servicios-aggregates-content {
+    display: flex;
+}
+
+.servicios-agregates-content-item{
+    background-color: #bdbdbd;
+}
+
+.servicios-aggregates-car {
+    padding: 1em;
+    flex-basis: 40%;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.servicios-aggregates-body {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em 1em 3em;
+    border-left: 2px solid white;
+    flex-basis: 80%;
+}
+
+.servicios-logo {
+    background-color: inherit;
+}
+
+.servicios-logo-content {
+    width: 100%;
+    /* text-align: center; */
+}
+
+.servicios-logo-img {
+    margin: 2em auto;
+}
+
+ul.servicios-aggregates-list {
+    margin: 0;
+    padding: .4em 1em;
 }
