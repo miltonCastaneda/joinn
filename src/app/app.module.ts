@@ -8,14 +8,15 @@ import { MyApp } from './app.component';
 import { Perfil } from '../pages/perfil/perfil';
 import { Servicios } from '../pages/servicios/servicios';
 import { ServicioDetalle } from '../pages/servicio-detalle/servicio-detalle';
-
+import { ServiciosAgregados  } from '../pages/servicios-agregados/servicios-agregados';
 
 @NgModule({
   declarations: [
     MyApp,
     Perfil,
     Servicios,
-    ServicioDetalle
+    ServicioDetalle,
+    ServiciosAgregados
   ],
   imports: [
     BrowserModule,
@@ -26,7 +27,8 @@ import { ServicioDetalle } from '../pages/servicio-detalle/servicio-detalle';
     MyApp,
     Perfil,
     Servicios,
-    ServicioDetalle
+    ServicioDetalle,
+    ServiciosAgregados
   ],
   providers: [
     StatusBar,

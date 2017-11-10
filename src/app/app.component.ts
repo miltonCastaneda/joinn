@@ -4,14 +4,17 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 //import { Perfil } from '../pages/perfil/perfil';
-import { Servicios } from '../pages/servicios/servicios';
+//import { Servicios } from '../pages/servicios/servicios';
 //import { ServicioDetalle } from '../pages/servicio-detalle/servicio-detalle';
+
+import { ServiciosAgregados } from '../pages/servicios-agregados/servicios-agregados';
+
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = Servicios;
+  rootPage:any = ServiciosAgregados;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
