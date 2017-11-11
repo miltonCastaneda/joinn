@@ -10,6 +10,8 @@ import { Servicios } from '../pages/servicios/servicios';
 import { ServicioDetalle } from '../pages/servicio-detalle/servicio-detalle';
 import { ServiciosAgregados  } from '../pages/servicios-agregados/servicios-agregados';
 import { PerfilInformacion } from '../pages/perfil-informacion/perfil-informacion';
+import { Compras } from '../pages/compras/compras';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { PerfilInformacion } from '../pages/perfil-informacion/perfil-informacio
     Servicios,
     ServicioDetalle,
     ServiciosAgregados,
-    PerfilInformacion
+    PerfilInformacion,
+    Compras
   ],
   imports: [
     BrowserModule,
@@ -31,7 +34,8 @@ import { PerfilInformacion } from '../pages/perfil-informacion/perfil-informacio
     Servicios,
     ServicioDetalle,
     ServiciosAgregados,
-    PerfilInformacion
+    PerfilInformacion,
+    Compras
   ],
   providers: [
     StatusBar,
