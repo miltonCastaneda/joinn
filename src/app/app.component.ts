@@ -4,17 +4,20 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 //import { Perfil } from '../pages/perfil/perfil';
+
 //import { Servicios } from '../pages/servicios/servicios';
+
 //import { ServicioDetalle } from '../pages/servicio-detalle/servicio-detalle';
 
-import { ServiciosAgregados } from '../pages/servicios-agregados/servicios-agregados';
+//import { ServiciosAgregados } from '../pages/servicios-agregados/servicios-agregados';
 
+import { PerfilInformacion } from '../pages/perfil-informacion/perfil-informacion';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = ServiciosAgregados;
+  rootPage:any = PerfilInformacion;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
