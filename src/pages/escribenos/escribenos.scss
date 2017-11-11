@@ -1,0 +1,55 @@
+page-escribenos {
+
+}
+
+
+textarea.escribenos-area {
+    width: 92%;
+    height: 60vh;
+    border-radius: 5px;
+    padding: 2em;
+    margin: 4%;
+    color: #717070;
+    font-size: 0.8em;
+}
+
+.escribenos-submit {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+    color: #fff;
+}
+
+.escribenos-informacion-button {
+    background-color: #bdbdbd;
+    flex-basis: 80%;
+    padding: 3%;
+    text-align: center;
+    margin: 0 1%;
+    border-radius: 4px;
+}
+
+.escribenos-informacion-adjunto {
+    flex-basis: 20%;
+    padding: 2%;
+    text-align: center;
+    background-color: #bdbdbd;
+    border-radius: 5px;
+    margin: 0 1%;
+}
+
+.escribenos-item >.item-inner {
+    border-bottom: 0!important;
+}
+
+.escribenos-campo>.item-inner {
+    border-bottom: 0 !important;
+}
+
+.escribenos-informacion-icon {
+    transform: rotate(50deg);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+

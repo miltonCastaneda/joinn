@@ -11,6 +11,8 @@ import { ServicioDetalle } from '../pages/servicio-detalle/servicio-detalle';
 import { ServiciosAgregados  } from '../pages/servicios-agregados/servicios-agregados';
 import { PerfilInformacion } from '../pages/perfil-informacion/perfil-informacion';
 import { Compras } from '../pages/compras/compras';
+import { Escribenos } from '../pages/escribenos/escribenos';
+
 
 
 @NgModule({
@@ -21,7 +23,8 @@ import { Compras } from '../pages/compras/compras';
     ServicioDetalle,
     ServiciosAgregados,
     PerfilInformacion,
-    Compras
+    Compras,
+    Escribenos
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import { Compras } from '../pages/compras/compras';
     ServicioDetalle,
     ServiciosAgregados,
     PerfilInformacion,
-    Compras
+    Compras,
+    Escribenos
   ],
   providers: [
     StatusBar,
