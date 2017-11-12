@@ -1,0 +1,76 @@
+page-referenciar {
+
+}
+
+.referenciar-title {
+    display: flex;
+    padding-bottom: 1em;
+}
+
+.referenciar-title-content {
+    flex-basis: 93%;
+    color: #999;
+    font-weight: bold;
+    padding-left: 0.5em;
+}
+
+figure.referenciar-title-logo {
+    flex-basis: 7%;
+}
+
+.referencia-enviar {
+    background-color: #7b7b7b;
+    padding: 0.4em .5em;
+    border-radius: 3px;
+    float: right;
+    height: auto;
+    font-size: 1em;
+}
+.referenciar {
+    background-color: white;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 0px 0px 24px #bdbdbd;
+    padding: 1em;
+}
+
+.referencia-submit {
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.referencia-input {
+    border: 1px solid #7b7b7b;
+    border-radius: 7px;
+    padding: 0% 7%;
+    font-size: .8em;
+}
+
+.referencia-campo {
+    margin: 6% 12%;
+}
+
+.referencia-label {
+    font-size: 13px;
+}
+
+.referencia-label-title {
+    font-size: .9em;
+    font-weight: bold;
+    color: #757070;
+    padding-bottom: 1em;
+}
+
+.referencia-label-desc {
+    color: #bdbdbd;
+}
+
+.referencia-logo {
+    margin-top: 5%;
+    background-color: inherit;
+    text-align: center;
+}
+
+img.referencia-logo-img {
+    width: 42%!important;
+}

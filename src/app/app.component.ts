@@ -15,13 +15,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 //import { Compras } from '../pages/compras/compras';
 
-import { Escribenos } from '../pages/escribenos/escribenos';
+//import { Escribenos } from '../pages/escribenos/escribenos';
+
+import { Referenciar } from '../pages/referenciar/referenciar';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = Escribenos;
+  rootPage:any = Referenciar;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

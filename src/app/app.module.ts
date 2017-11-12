@@ -12,6 +12,7 @@ import { ServiciosAgregados  } from '../pages/servicios-agregados/servicios-agre
 import { PerfilInformacion } from '../pages/perfil-informacion/perfil-informacion';
 import { Compras } from '../pages/compras/compras';
 import { Escribenos } from '../pages/escribenos/escribenos';
+import { Referenciar } from '../pages/referenciar/referenciar';
 
 
 
@@ -24,7 +25,8 @@ import { Escribenos } from '../pages/escribenos/escribenos';
     ServiciosAgregados,
     PerfilInformacion,
     Compras,
-    Escribenos
+    Escribenos,
+    Referenciar
   ],
   imports: [
     BrowserModule,
@@ -39,7 +41,8 @@ import { Escribenos } from '../pages/escribenos/escribenos';
     ServiciosAgregados,
     PerfilInformacion,
     Compras,
-    Escribenos
+    Escribenos,
+    Referenciar
   ],
   providers: [
     StatusBar,
